@@ -14,18 +14,25 @@ We must import/clean the csv turned DataFrame.
 * Removal of the myopic column 
 * Standardize datasetgit
 
+![Alt text](/Screenshots/Prepare_Data.png?raw=true "Preparing Data")
+
 ## 2. Apply Dimensionalty Reduction
 
-*  Perform dimensional reduction with PCA
-
+* Perform dimensional reduction with PCA
 * Use t-SNE 
 * Create scatterpot of t-SNE output
 * Are there distinct clusters??
+
+![Alt text](/Screenshots/dim_reduct1.png?raw=true "Dimensional reduction")
+
+![Alt text](/Screenshots/dim_reduct2.png?raw=true "Dimensional reduction")
 
 ## 3. Perform Cluster Analysis with K-Means
 
 * Use a for-loop to determine the inertia for each k between 1 to 10
 * Determine the elbow of the plot
+
+![Alt text](/Screenshots/Kmeans_cluster.png?raw=true "K-means")
 
 ## 4. Recommendation 
 
